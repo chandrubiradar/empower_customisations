@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include empower_customisations *.css
+recursive-include empower_customisations *.csv
+recursive-include empower_customisations *.html
+recursive-include empower_customisations *.ico
+recursive-include empower_customisations *.js
+recursive-include empower_customisations *.json
+recursive-include empower_customisations *.md
+recursive-include empower_customisations *.png
+recursive-include empower_customisations *.py
+recursive-include empower_customisations *.svg
+recursive-include empower_customisations *.txt
+recursive-exclude empower_customisations *.pyc
